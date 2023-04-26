@@ -11,7 +11,7 @@ association in children with autism spectrum disorder in future work.
 
 - [Introduction](#introduction)
 - [Usage](#usage)
-- [Packages](#packages)
+- [Prerequisite packages](#packages)
 
 ## Introduction
 There has been high variation and inconsistency between the resting-state functional connectivity (RSFC) and cognitive performance in healthy due to limited sample size and high computational cost for estimation. The Bayesian approach was able to detect a significant diagnostic difference in the association in ROI pairs. However, implementing MCMC for parameter estimation of Bayesian model in high dimensional spatio-temporal datasets can be difficult due to several reasons. One of the difficulty is the number of possible combinations of parameters grows exponentially in high dimensional case, making it computationally intractable to explore the entire parameter space. As a result, the exploration of the parameter space can become very slow,
@@ -28,7 +28,7 @@ and it becomes challenging to achieve convergence with traditional MCMC methods.
 ### [dist_matrix_dim.py](https://github.com/yutingmeivu/acceleration_fmri/blob/main/PyMC3_model_data/dist_matrix_dim.py)
   - Implementation of dimension reduction and visualization of temporal dataset 
   
-## Prerequsite packages
+## packages
 To successfully running the code, the following code is to install the prerequiste pakcages:
 ```python
 pip install jax[cuda11_cudnn82] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jaxlib numpyro "pymc>=4" GPy tensorflow sklearn seaborn
