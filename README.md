@@ -25,7 +25,7 @@ and it becomes challenging to achieve convergence with traditional MCMC methods.
 ### [dist_matrix_dim.py](https://github.com/yutingmeivu/acceleration_fmri/blob/main/PyMC3_model_data/dist_matrix_dim.py)
   - Implementation of dimension reduction and visualization of spatial dataset 
   
-### [dist_matrix_dim.py](https://github.com/yutingmeivu/acceleration_fmri/blob/main/PyMC3_model_data/dist_matrix_dim.py)
+### [time_matrix_dim.py](https://github.com/yutingmeivu/acceleration_fmri/blob/main/PyMC3_model_data/time_matrix_dim.py)
   - Implementation of dimension reduction and visualization of temporal dataset 
   
 ## packages
