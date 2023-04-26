@@ -32,3 +32,5 @@ To successfully running the code, the following code is to install the prerequis
 ```python
 pip install jax[cuda11_cudnn82] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jaxlib numpyro "pymc>=4" GPy tensorflow sklearn seaborn
 ```
+
+
